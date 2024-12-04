@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;;
+
+}
+
+#header{
+    display:flex;
+    gap:1100px;
+}
+
+.logo{
+    padding-left: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.blow {
+  font-size: 28px; /* Make the 'blow' text larger */
+}
+
+.ltd {
+  font-size: 16px; /* Make the 'Ltd' text smaller */
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.eye {
+    padding-left: 15px;
+    width: 98%; 
+    height: auto;
+}
+
+.description {
+    position: absolute;
+    top: 35%; 
+    left: 30%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.9); 
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px; 
+    margin-top: 100px;
+}
+
+.book-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #f28b82; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-button:hover{
+  background-color: #ff5a4f;
+}
+
+.book_button2{
+    background-color: #f28b82;
+    color :white;
+     margin-left: 40px;
+     width: 70%;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+}
+.book_button2:hover{
+  background-color: #ff5a4f;
+}
+
+h4{
+    margin-left: 70px;
+}
+#p1{
+    margin-left: 20px;
+}
+
+#p0{
+    margin-right: 15px;
+}
+h3{
+    margin-left: 40px;
+}
+.lenght{
+    line-height: 30px;
+}
+
+.rate-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rate1{
+    line-height: 25px;
+}
+
+.rate2{
+    line-height: 25px;
+}
+
+.rate3{
+    line-height: 25px;
+}
+.review{
+    margin-top: 25px;
+}
+
+.help{
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+.work-time{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+}
+
+.ghadi{
+    margin-top: 40px;
+    padding-left: 75px;
+    height: 100px;
+    width: 100px;
+   
+}
+h4{
+   
+    font-family: Arial, sans-serif;
+    color: #A0A0A0;
+}
+.wathc_text{
+    margin-top: 25px;
+}
+
+
+
+.Brand{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid  black ;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 30px;
+   
+}
+.name{
+    text-decoration: underline;
+}
+h5{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #A0A0A0; 
+}
+
+.prod_text{
+    margin-top: 25px;
+}
+
+.about{
+    margin-top: 10px;
+    padding-right: 200px ;
+}
+
+.feedback{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        color: #A0A0A0;
+        margin-top: 40px;
+    
+      
+}
+.smiley {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .smiley::before,
+  .smiley::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+  }
+
+
+  .smiley::before {
+    left: 18px;
+  }
+  .smiley::after {
+    right: 18px;
+  }
+
+  /* Smile */
+  .smile {
+    width: 40px;
+    height:40px;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 15px;
+  }
+
+  .text {
+   
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text1{
+    margin-top: 35px;
+  }
+
+  .medium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #555;
+    max-width: 910px;
+    margin: auto;
+  }
+
+  .image-section img{
+    width: 350px;
+    height: 339px;
+    border-radius: 2px;
+    padding-right: 50px;
+    
+  }
+  .content {
+    margin-left: 20px;
+    max-width: 500px;
+  } 
+  
+  .content h2 {
+    color: #A0A0A0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+ 
+  .content p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .promo {
+    color: #FF4C4C;
+    font-weight: bold;
+  }
+  .word{
+    text-align: center;
+    margin-bottom :5px;
+  }
+
+  .word2{
+    text-align: center;
+    margin-bottom :5px;
+  }
+  .price{
+    text-align: center;
+    /* margin-bottom :5px; */
+  }
+
+
+  .button {
+    display: inline-block;
+    background-color: #f28b82;
+    color :white;
+     margin-left: 35px;
+     margin-top: 10px;
+     width: 35%;
+     border-radius: 5px;
+     border: none;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #ff5a4f;
+  }
+ 
+.how-it-works {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.how-it-works h2 {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+
+.steps{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  } 
+
+
+
+
+  .services {
+    text-align: center;
+    margin: 20px;
+}
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.service-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    width: 300px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.service button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff7066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.service button:hover {
+    background-color: #ff5a4f;
+}
+
+.pic2{
+  width: 165px;
+  height: 195px;
+}
+.pic1{
+  height:195px;
+}
+
+.app-download-footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.app-preview {
+  flex: 1;
+}
+
+
+.phone-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 20px;
+}
+
+
+.download-info {
+  display: block;
+  flex: 1;
+}
+
+
+.download-info p {
+  font-size: 21px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+.store-icon {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  border:2px solid white; 
+}
+
+.applestor{
+  display: flex;
+  width:200px;
+  height:50px;
+  /* border: 20px solid black; */
+  /* color:white; */
+  /* background-color: black; */
+  
+}
+
+.apple{
+  margin-bottom: 100px;
+}
+#playStor{
+  display: flex;
+  width:200px;
+  height:50px;
+  padding-top: 25px;
+}
+.app-download-footer{
+  background-color: #f9f9f9;
+}
+
